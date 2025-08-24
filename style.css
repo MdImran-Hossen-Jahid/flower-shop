@@ -1,0 +1,150 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared styles start */
+.btn-primary{
+font-weight: 600;
+font-size: 1.25rem;
+padding: 20px 40px;
+border: none;
+border-radius: 8px;
+color: white;
+background:rgba(229, 84, 115, 1);
+}
+.background{
+width: 300px;
+height: 350px;
+}
+/* shared styles end */
+
+/* banner section styles start */
+#banner{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(229, 84, 115, 0.1);
+   margin-bottom: 178px;
+}
+.banner-text-area{
+  width: 630px;
+}
+.banner-title{
+    font-size: 5rem;
+    color: #272727;
+}
+.banner-description{
+  color: #7c7677;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.banner-flower-image{
+  width: auto;
+  height: 590px;
+  margin-top: 40px;
+}
+/* banner section styles end */
+
+/* featured flowers section styles start */
+#featured-flowers{
+max-width: 80%;
+margin: 0 auto;
+}
+.featured-text-area{
+  width: 574px;
+  text-align: center;
+ margin: 0 auto;
+}
+.featured-flowers-title{
+font-size: 2.5rem;
+}
+.featured-flowers-description{
+font-size: 1.125rem;
+color: rgba(39, 39, 39, 0.6);
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.featured-images-item{
+  display: flex;
+  justify-content: space-evenly;
+}
+.feature-image-one{
+  position: absolute;
+  z-index: 1;
+  top: 1015px;
+  left: 200px;
+  width: 245px;
+  height: 310px;
+}
+.feature-image-two{
+position: absolute;
+  z-index: 1;
+  top: 1010px;
+  left:530px;
+  width: 320px;
+  height: 320px;
+}
+.feature-image-three{
+  position: absolute;
+  z-index: 1;
+  top: 1006px;
+  right: 210px;
+  width: 245px;
+  height: 320px;
+}
+
+.display-hidden{
+  display: none;
+}
+
+
+/* responsive design for mobile devices */
+@media screen and (max-width: 576px) {
+  #banner{
+    flex-direction: column-reverse;
+        margin-bottom: 178px;
+        align-items: normal;
+  }
+  .banner-flower-image {
+    width: 360px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.banner-text-area{
+  width: auto;
+}
+.banner-title{
+  font-size: 1.9rem;
+  text-align: center; 
+}
+.banner-description{
+  text-align: center;
+  width: 88%;
+  margin:20px auto 20px;
+}
+.btn-primary{
+  position: relative;
+  left: 100px;
+}
+
+
+}
