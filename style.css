@@ -33,6 +33,22 @@ background:rgba(229, 84, 115, 1);
 width: 300px;
 height: 350px;
 }
+
+.featured-description{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+}
+.featured-icon{
+  width: 48px;
+  height: 48px;
+}
+.feature-title{
+  font-size: 0.9rem;
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 600;
+}
 /* shared styles end */
 
 /* banner section styles start */
@@ -85,6 +101,7 @@ margin-bottom: 48px;
 .featured-images-item{
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 35px;
 }
 .feature-image-one{
   position: absolute;
@@ -110,6 +127,7 @@ position: absolute;
   width: 245px;
   height: 320px;
 }
+
 
 .display-hidden{
   display: none;
@@ -145,6 +163,25 @@ position: absolute;
   position: relative;
   left: 100px;
 }
+.featured-description{
+flex-direction: column;
+}
+.feature-title{
+  text-align: center;
+}
+.featured-item{
+  margin: 20px 0px;
+}
+.featured-images-item{
+  display: none;
+}
+#featured-flowers{
+  max-width: 100%;
+}
+.featured-text-area{
+  width: 100%;
+}
+
 
 
 }
