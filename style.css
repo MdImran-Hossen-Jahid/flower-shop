@@ -173,6 +173,8 @@ color: white;
 background:rgba(229, 84, 115, 1);
 }
 /* hot deal section styles end */
+
+/* instagram-item section styles start */
 #instagram-item{
   max-width: 80%;
   margin: 100px auto 0 auto;
@@ -199,7 +201,39 @@ color: rgba(39, 39, 39, 0.6);
   grid-template-columns: repeat(4, 1fr);
 }
 
-/*  */
+/* instagram-item section styles end */
+
+/* latest deals section styles start */
+#latest-deals-item{
+  height: 450px;
+  background-image: url(Rectangle\ 9.png);
+  background-repeat: no-repeat;
+}
+.latest-deals-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1);
+}
+.latest-deals-description{
+  font-size: 1.125rem;
+  color: rgba(39, 39, 39, 0.6);
+}
+.email-box{
+  border: none;
+  border-radius: 8px;
+  width: 550px;
+  height: 64px;
+}
+.subscribe-button-item{
+  color: white;
+  background-color: #E55473;
+  font-size: 1.25rem;
+  width: 150px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+}
+/* latest deals section styles end */
 
 .display-hidden{
   display: none;
@@ -274,7 +308,7 @@ flex-direction: column;
 }
 .insta-flowers {
   /* margin: auto; */
-    width: 90%;
+    width: 100%;
     height: 350px;
 }
 
