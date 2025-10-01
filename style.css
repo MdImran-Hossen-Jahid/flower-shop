@@ -273,6 +273,7 @@ flex-direction: column;
   gap: 20px;
 }
 .insta-flowers {
+  margin: auto;
     width: 90%;
     height: 350px;
 }
