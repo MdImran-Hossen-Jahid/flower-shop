@@ -272,8 +272,10 @@ flex-direction: column;
   grid-template-columns: 1fr;
   gap: 20px;
 }
+.insta-flowers {
+    width: auto;
+    height: auto;
+}
 
-
- 
 
 }
