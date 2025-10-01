@@ -49,6 +49,10 @@ height: 350px;
   color: rgba(39, 39, 39, 0.8);
   font-weight: 600;
 }
+.insta-flowers{
+  width: 250px;
+  height: 350px;
+}
 /* shared styles end */
 
 /* banner section styles start */
@@ -168,8 +172,35 @@ border-radius: 8px;
 color: white;
 background:rgba(229, 84, 115, 1);
 }
-
 /* hot deal section styles end */
+#instagram-item{
+  max-width: 80%;
+  margin: 100px auto 0 auto;
+}
+.insta-text-item{
+  width: 594px;
+  margin: auto;
+  text-align: center;
+}
+.insta-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1);
+}
+.insta-description{
+  margin-top: 24px;
+  margin-bottom: 48px;
+font-size: 1.125rem;
+color: rgba(39, 39, 39, 0.6);
+}
+
+.insta-flowers-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*  */
+
 .display-hidden{
   display: none;
 }
@@ -234,5 +265,15 @@ flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.insta-text-item {
+  width: auto;
+}
+.insta-flowers-item{
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+
+ 
 
 }
